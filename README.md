@@ -2,3 +2,11 @@
 Surtido de sonidos típicos de armas para una partida de roll de pana
 
 Page URL: https://smiera96.github.io/Roll-Sounds-de-Pana/
+
+Sonidos:
+- Dagas
+- Espada
+- Hacha
+- Arco
+- Magia
+- Enganchao
