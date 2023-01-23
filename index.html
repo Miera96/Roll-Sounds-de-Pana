@@ -16,60 +16,62 @@
   <script src="js/main.js"></script>
 </head>
 <body>
-  <audio id="dagas">
-    <source src="resources/sounds/dagas.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <audio id="espada">
-    <source src="resources/sounds/espada.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <audio id="hacha">
-    <source src="resources/sounds/hacha.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <audio id="arco">
-    <source src="resources/sounds/arco.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <audio id="magia">
-    <source src="resources/sounds/magia.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <audio id="enganchao">
-    <source src="resources/sounds/enganchao.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-  <div class="content">
-    <button class="sound-effect" data-audio="dagas">
-      🗡️🗡️<br>
-      Dagas
-    </button>
-    <button class="sound-effect" data-audio="espada">
-      ⚔️<br>
-      Espada
-    </button>
-    <button class="sound-effect" data-audio="hacha">
-      🪓<br>
-      Hacha
-    </button>
-    <button class="sound-effect" data-audio="arco">
-      🏹<br>
-      Arco
-    </button>
-    <button class="sound-effect" data-audio="magia">
-      🧙‍♂️<br>
-      Magia
-    </button>
-    <button class="sound-effect" data-audio="enganchao">
-      ♿<br>
-      Enganchao
-    </button>
+  <div class="audios">
+    <audio id="dagas">
+      <source src="resources/sounds/dagas.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="espada">
+      <source src="resources/sounds/espada.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="hacha">
+      <source src="resources/sounds/hacha.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="arco">
+      <source src="resources/sounds/arco.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="magia">
+      <source src="resources/sounds/magia.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="enganchao">
+      <source src="resources/sounds/enganchao.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
   </div>
-
-  <div class="content-banner">
-    <i class="fa-brands fa-d-and-d"></i>&nbsp;Las grandes aventuras de Miriel, Voltereto, Paolus, Santo Tolin y Adanion
+  <div class="content">
+    <div class="button-container">
+      <button class="sound-effect" data-audio="dagas">
+        🗡️🗡️<br>
+        Dagas
+      </button>
+      <button class="sound-effect" data-audio="espada">
+        ⚔️<br>
+        Espada
+      </button>
+      <button class="sound-effect" data-audio="hacha">
+        🪓<br>
+        Hacha
+      </button>
+      <button class="sound-effect" data-audio="arco">
+        🏹<br>
+        Arco
+      </button>
+      <button class="sound-effect" data-audio="magia">
+        🧙‍♂️<br>
+        Magia
+      </button>
+      <button class="sound-effect" data-audio="enganchao">
+        ♿<br>
+        Enganchao
+      </button>
+    </div>
+    <div class="content-banner">
+      <i class="fa-brands fa-d-and-d"></i>&nbsp;<div class="content-banner-description">Las grandes aventuras de Miriel, Voltereto, Paolus, Santo Tolin y Adanion</div>
+    </div>
   </div>
 </body>
 </html>
