@@ -8,6 +8,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 function playAudio(element) {
-  var x = document.getElementById(element.dataset.audio)
-  x.play()
+  document.getElementById(element.dataset.audio).play()
 } 
