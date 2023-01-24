@@ -16,7 +16,7 @@ html {
 
 @media screen and (max-width: 500px){
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -77,10 +77,22 @@ footer {
 
   .container {
     height: 90vh;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   footer {
     display: none;
+  }
+}
+
+@media (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (orientation: landscape) {
+  .container {
+    flex-direction: row;
   }
 }
