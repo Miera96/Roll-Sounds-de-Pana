@@ -64,10 +64,12 @@ footer {
 
 @media screen and (max-width: 1000px) {
   .container {
+    height: 75vh;
     flex-direction: column;
   }
 
   footer {
+    height: 15vh;
     display: flex;
     flex-direction: column;
     text-align: center;
