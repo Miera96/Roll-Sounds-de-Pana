@@ -37,6 +37,10 @@ header {
   font-size: 2rem;
 }
 
+.mobile-header {
+  display: none;
+}
+
 .container {
   width: 100vw;
   height: 80vh;
@@ -63,15 +67,20 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  body {
+    overflow: unset;
+  }
+
+  .mobile-header {
+    display: flex;
+  }
+
   .container {
-    height: 75vh;
+    height: 90vh;
     flex-direction: column;
   }
 
   footer {
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: none;
   }
 }
